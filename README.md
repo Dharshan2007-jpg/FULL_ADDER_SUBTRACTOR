@@ -46,7 +46,7 @@ Write the detailed procedure here
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.*/
+Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
 ```
 module ex4 (a,b,c,x,y,z,sum,dif,car,bor);
 input a,b,c,x,y,z;
@@ -58,8 +58,8 @@ assign bor = ~x&z | ~x&y | y&z;
 endmodule
 
 ```
-/*Developed by:Dharshan Babu A */ 
-/*RegisterNumber:25008132*/
+Developed by:Dharshan Babu A 
+RegisterNumber:25008132
 
 
 **RTL Schematic**
